@@ -1039,6 +1039,7 @@ body::before {
 
   .logo {
     height: 42px;
+   align-items: center;
   }
 
   .navbar.shrink .logo {
