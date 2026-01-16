@@ -400,9 +400,19 @@ section {
     padding: 11px 24px;
     font-size: 12px;
   }
-
   .hero-banner {
     height: 45vh;
+    background-position: center center;
+    background-color: transparent;
+  }
+
+  /* fundo dourado para fechar as laterais */
+  .hero-banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #c9a24d;
+    z-index: -1;
   }
   .hero-banner-overlay {
     display:none;
@@ -1307,21 +1317,7 @@ body::before {
 
 
 }
-@media (max-width: 480px) {
-  .hero-banner {
-    height: 35vh;
-    background-position: center center;
-  }
 
-  /* fundo dourado para fechar as laterais */
-  .hero-banner::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: #c9a24d;
-    z-index: -1;
-  }
-}
 
 
 
