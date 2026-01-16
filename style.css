@@ -169,6 +169,7 @@ section {
 @media (max-width: 768px) {
   .hero-banner-overlay {
     position: absolute;
+    inset:auto;
   }
 }
 
