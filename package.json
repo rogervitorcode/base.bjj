@@ -1,0 +1,19 @@
+{
+  "name": "sim",
+  "version": "1.0.0",
+  "description": "A simulation project that manages simulation lifecycle and model behavior.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "ts-node": "^10.0.0",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
