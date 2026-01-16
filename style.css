@@ -158,7 +158,7 @@ section {
 
 .hero-banner-overlay {
   position: absolute;
-  inset: auto;
+  inset:0;
   background: linear-gradient(
     to bottom,
     rgba(0,0,0,0.35),
