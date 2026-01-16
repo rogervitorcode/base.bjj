@@ -407,6 +407,7 @@ section {
   }
   .hero-banner-overlay {
     position: absolute;
+    inset: auto;
   }
 
   .hero-banner-content h2 {
