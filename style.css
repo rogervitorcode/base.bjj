@@ -168,8 +168,7 @@ section {
 
 @media (max-width: 768px) {
   .hero-banner-overlay {
-    position: absolute;
-    inset:auto;
+    display:none;
   }
 }
 
@@ -406,8 +405,7 @@ section {
     height: 45vh;
   }
   .hero-banner-overlay {
-    position: absolute;
-    inset: auto;
+    display:none;
   }
 
   .hero-banner-content h2 {
