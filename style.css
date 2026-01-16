@@ -168,6 +168,7 @@ section {
 
 @media (max-width: 768px) {
   .hero-banner-overlay {
+    position: absolute;
     inset: unset;
     background: linear-gradient(
     to bottom,
@@ -1310,4 +1311,5 @@ body::before {
 
 
 }
+
 
