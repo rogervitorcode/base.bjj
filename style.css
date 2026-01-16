@@ -414,6 +414,11 @@ section {
 
   .hero-banner-content h2 {
     font-size: 32px;
+    text-shadow:
+  0 2px 6px rgba(0,0,0,0.6),
+  0 4px 12px rgba(0,0,0,0.8),
+  0 6px 20px rgba(0,0,0,0.9);
+    color: #c9a24d;
   }
 
   .hero-banner-content p {
@@ -1311,6 +1316,7 @@ body::before {
 
 
 }
+
 
 
 
