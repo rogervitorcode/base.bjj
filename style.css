@@ -1054,8 +1054,8 @@ body::before {
   }
 
   .hero-banner {
-    height: 35vh;
-    background-position: center center;
+     background-size: 130% auto;
+    background-position: center top;
   }
 
   .hero-banner-content h2 {
