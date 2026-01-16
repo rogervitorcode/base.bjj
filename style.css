@@ -155,6 +155,11 @@ section {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 480px) {
+  .hero-banner {
+    background-color: transparent;
+  }
+}
 
 .hero-banner-overlay {
   position: absolute;
