@@ -396,7 +396,6 @@ section {
   .nav {
     display: none;
   }
-
   .btn-main {
     padding: 11px 24px;
     font-size: 12px;
@@ -404,6 +403,9 @@ section {
 
   .hero-banner {
     height: 45vh;
+  }
+  .hero-banner-overlay {
+    position: absolute;
   }
 
   .hero-banner-content h2 {
@@ -1034,7 +1036,6 @@ body::before {
 
   .logo {
     height: 42px;
-   align-items: center;
   }
 
   .navbar.shrink .logo {
