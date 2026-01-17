@@ -470,7 +470,6 @@ section {
   }
 
   .hero-banner {
-    margin-top: -50px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1127,7 +1126,6 @@ body::before {
   }
 
   .hero-banner {
-    margin-top: -50px;
     height: 35vh;
     background-position: center center;
   }
