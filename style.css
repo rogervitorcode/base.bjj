@@ -470,7 +470,9 @@ section {
   }
 
   .hero-banner {
-    height: 45vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .hero-banner-overlay {
     position: absolute;
