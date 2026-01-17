@@ -387,17 +387,7 @@ section {
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 768px) {
 
-  .navbar {
-    justify-content: center;
-  }
-
-  .logo {
-    margin: 0 auto;
-  }
-
-}
 @media (max-width: 768px) {
   .about-stats {
     flex-direction: column !important;
@@ -429,7 +419,7 @@ section {
 @media (max-width: 768px) {
 
   body {
-    padding-top: 95px;
+    padding-top: 60px;/*era 95*/
   }
 
   section {
@@ -437,11 +427,14 @@ section {
   }
 
   .navbar {
-    padding: 14px 24px;
+    position: fixed;
+    justify-content: center;
   }
 
   .logo {
-    height: 58px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .navbar.shrink .logo {
@@ -577,8 +570,9 @@ section {
   }
 }
 .hero {
-  background-attachment: fixed;
-  transition: background-position 0.3s ease-out;
+ margin-top: -20px; 
+ /*(ANTES)background-attachment: fixed;
+  transition: background-position 0.3s ease-out;*/
 }
 /* NAVBAR SHRINK */
 .navbar.shrink {
