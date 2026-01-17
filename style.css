@@ -388,6 +388,17 @@ section {
 
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+}
+@media (max-width: 768px) {
   .about-stats {
     flex-direction: column !important;
     gap: 24px;
