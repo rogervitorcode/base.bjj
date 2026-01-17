@@ -143,6 +143,11 @@ section {
     0 0 28px rgba(34,197,94,0.55),
     0 18px 45px rgba(0,0,0,0.75);
 }
+.about-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
 
 
 /* ================= BANNER ================= */
