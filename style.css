@@ -448,11 +448,6 @@ section {
   }
 
   /* esconde menu no mobile */
-  @media (max-width: 768px) {
-  .navbar .nav {
-    display: none;
-  }
-}
   /* empurra o conteúdo pra não ficar embaixo da navbar */
   .hero {
     padding-top: 64px;
