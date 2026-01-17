@@ -425,24 +425,9 @@ section {
   section {
     padding: 100px 24px;
   }
-
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
-    padding: 0 16px;
+  .navbar .logo {
+    display: none;
   }
-
-  .navbar .logo img {
-    height: 38px;   /* CHAVE da solução */
-    width: auto;
-    max-width: 100%;
-    object-fit: contain;
-  }
-
-}
-
   .navbar.shrink .logo {
     height: 44px;
   }
