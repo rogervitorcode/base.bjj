@@ -456,7 +456,9 @@ section {
   .hero {
     padding-top: 64px;
   }
-}
+  section {
+    padding-top: 0;
+    }
   .navbar.shrink .logo {
     height: 44px;
   }
@@ -1496,6 +1498,17 @@ body::before {
   .whatsapp-float img {
     width: 28px;
     height: 28px;
+  }
+}
+@media (max-width: 768px) {
+  /* remove padding padrão só do HERO */
+  section.hero {
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 64px; /* altura real da navbar */
   }
 }
 
