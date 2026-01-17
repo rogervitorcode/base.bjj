@@ -1496,20 +1496,6 @@ body::before {
     height: 28px;
   }
 }
-@media (max-width: 768px) {
-
-  html, body {
-    overflow-x: hidden; /* evita scroll lateral */
-  }
-
-  .hero-banner {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    border-radius: 0; /* remove cantos no mobile */
-  }
-
-}
 
 
 
