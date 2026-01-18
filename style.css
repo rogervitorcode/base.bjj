@@ -584,7 +584,6 @@ section {
   .about-text p {
     font-size: 15px;
   }
-}
 .hero {
  margin-top: -20px; 
  /*(ANTES)background-attachment: fixed;
@@ -1555,6 +1554,3 @@ body::before {
     font-size: 32px;
 }
 }
-
-
-
