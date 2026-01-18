@@ -452,7 +452,6 @@ section {
   .hero {
     padding-top: 64px;
   }
-}
   .navbar.shrink .logo {
     height: 44px;
   }
@@ -1065,7 +1064,7 @@ body::before {
   padding: 18px 42px;
   font-size: 14px;
 }
-
+}
 /* ================= CELULARES PEQUENOS (480px para baixo) ================= */
 @media (max-width: 480px) {
 
